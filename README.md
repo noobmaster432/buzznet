@@ -1,14 +1,3 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-```
 # Buzznet
 
 Buzznet is a Twitter clone built with React, Tailwind CSS, Next.JS, Prisma, and MongoDB. It offers features like authentication, notifications, image upload, and responsive layout. Buzznet uses Prisma ORM to manage 1-to-many and many-to-many relations between users, posts, and comments. It also provides comments/replies, and likes system to engage with posts.
@@ -41,3 +30,13 @@ Buzznet is a Twitter clone built with React, Tailwind CSS, Next.JS, Prisma, and 
 - Bcrypt
 - Axios
 
+
+## Getting Started
+
+First, run the development server:
+
+```bash
+npm run dev
+# or
+yarn dev
+```
