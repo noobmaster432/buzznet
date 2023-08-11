@@ -25,7 +25,7 @@ Buzznet is a vibrant and feature-packed Twitter clone that brings the essence of
 - **Likes Functionality:** Show appreciation for posts through the likes system, enhancing user engagement.
 
 ## Tech Stacks Used
-- Frontend: NextJs, Typescript, Tailwind CSS, Zustand(State management), Axios
+- Frontend: NextJs, Typescript, Tailwind CSS, Zustand(State management)
 - Backend: Node.js, Express, Bcrypt
 - Database: Prisma(ORM), MongoDB
 - Authentication : NextAuth
