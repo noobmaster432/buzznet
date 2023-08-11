@@ -1,38 +1,43 @@
-# Buzznet
+# Buzznet: Twitter Clone
 
-Buzznet is a Twitter clone built with React, Tailwind CSS, Next.JS, Prisma, Zustand and MongoDB. It offers features like authentication, notifications, image upload, and responsive layout. Buzznet uses Prisma ORM to manage 1-to-many and many-to-many relations between users, posts, and comments. It also provides comments/replies, and likes system to engage with posts.
+Buzznet is a vibrant and feature-packed Twitter clone that brings the essence of social networking to life. Built using a powerful stack including React, Tailwind CSS, Next.js, Prisma, Zustand, and MongoDB, Buzznet offers a comprehensive social media experience. With a focus on user engagement and seamless functionality, Buzznet opens the doors to a world of sharing, connecting, and interacting.
 
 ### [Demo](https://buzznet-tweet.vercel.app)
 
-
 ## Features
 
-- Authentication system
-- Notification system
-- Image Upload using Base64 strings
-- Prisma ORM with MongoDB
-- Responsive Layout
-- 1 To Many Relations (User - Post)
-- Many To Many Relations (Post - Comment)
-- Comments / Replies
-- Likes functionality
-
+- **Authentication System:** Securely sign up and log in to your Buzznet account, ensuring your data remains protected.
+  
+- **Notification System:** Stay informed with real-time notifications that keep you updated on interactions and engagements.
+  
+- **Image Upload:** Easily share your moments with image uploads, powered by Base64 strings, for a personalized touch.
+  
+- **Prisma ORM with MongoDB:** Leverage the power of Prisma and MongoDB for efficient data management and storage.
+  
+- **Responsive Layout:** Enjoy a seamless experience across various devices with a responsive and adaptive layout design.
+  
+- **1 To Many Relations (User - Post):** Establish connections and share your thoughts through posts with a user-centric perspective.
+  
+- **Many To Many Relations (Post - Comment):** Engage in discussions and express your opinions by commenting on posts.
+  
+- **Comments / Replies:** Foster conversations with nested comments and replies for interactive discussions.
+  
+- **Likes Functionality:** Show appreciation for posts through the likes system, enhancing user engagement.
 
 ## Tech Stacks Used
+- Frontend: NextJs, Typescript, Tailwind CSS, Zustand(State management), Axios
+- Backend: Node.js, Express, Bcrypt
+- Database: Prisma(ORM), MongoDB
+- Authentication : NextAuth
+- API Communication: Axios
 
-- ReactJs
-- NextJs
-- Typescript
-- Tailwind CSS
-- Prisma
-- MongoDB
-- NextAuth
-- Bcrypt
-- Axios
+---
 
+Embrace the Buzznet experience! Connect, share, and engage with a platform that encapsulates the essence of social networking. Start sharing your thoughts and engaging with others in a dynamic and interactive environment.
+
+---
 
 ## Screenshots
-
 
 <img width="880" alt="1" src="https://user-images.githubusercontent.com/103204431/230714889-8f37df26-2d54-4e44-8cde-462ea3a88769.png">
 
@@ -45,14 +50,3 @@ Buzznet is a Twitter clone built with React, Tailwind CSS, Next.JS, Prisma, Zust
 <img width="880" alt="5" src="https://user-images.githubusercontent.com/103204431/230714892-0d615a3e-ecb3-4906-bfde-efcd7a9e1493.png">
 
 <img width="880" alt="6" src="https://user-images.githubusercontent.com/103204431/230714894-323051c4-dbd1-45df-88f4-382b55c956fc.png">
-
-
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-```
